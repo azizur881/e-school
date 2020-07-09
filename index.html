@@ -4,8 +4,197 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>e-school</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="ICON/Logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <!-- In navbar i use bootstrap also use css for fit the logo and design a button by css -->
+    <section class="container navbar-container">
+        <nav class="head-navbar">
+            <div class="row">
+          <div class="col-sm-0 col-md-6 col-lg-6 col-xl-6">
+              <img class="navbar-logo img-fluid" src="ICON/Logo.png" alt="">
+          </div>
+          <div class="col-md-6 col-sm-12 col-lg-6 col-xl-6 ">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Books</a>
+                    <a class="nav-item nav-link" href="#">Courses</a>
+                    <a class="nav-item nav-link" href="#">Others</a>
+                    <a class="nav-item  nav-link" href="#"  >Blogs</a>
+                    <a class="nav-item  nav-link" href="#"  >
+                        <button class="sign-in-button">Sign In</button>
+                    </a>
+                  </div>
+                </div>
+              </nav>
+          </div>
+          </div>
+        </div>
+    </nav>
+    <div class="row banner-item d-flex align-items-center d-flex justify-content-between banner-half">
+        <div class="col-sm-0 col-md-6 col-lg-6 col-xl-6 banner-text">
+                <p id="first-paragraph">Are you ready for study</p>
+                <h1>Learn With fun <br> on <span class="schedule-text">any schedule</span></h1>
+                <br>
+               <p class="second-paragraph">Attend your class in any reasonable time</p>
+               <p class="second-paragraph">Don't think about place its your wish you can attent from moon.</p>
+               <br>
+               <button  id="started-button">Get Started</button>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <img class="banner-photo" src="Photos/Illustration.png" alt="">
+        </div>
+    </div>
+    </section>
+        <section class="container">
+            <div class="row d-flex justify-content-between">
+             <article>
+                <div class="col-md-3 col-sm-6 col-lg-3 col-xl-3 icon">
+                    <div>
+                        <img src="ICON/book.png" alt="">
+                      <h5>1500+Topic</h5>
+                      <p>LearnAnythngs</p>
+                    </div>
+                </div>
+             </article>
+              <article class="article2">
+                  <div class="col-md-3 col-sm-6 col-lg-3 col-xl-3 icon">
+                <img src="ICON/Students.png" alt="">
+                <h5>1800+Students</h5>
+                <p>LearnAnythngs</p>
+            </div>
+            </article>
+              <article>
+                <div class="col-md-3 col-sm-6 col-lg-3 col-xl-3 icon">
+                    <img src="ICON/Test.png" alt="">
+                    <h5>9K+Token</h5>
+                    <p>LearnAnythngs</p>
+                </div>
+              </article>
+              <article>
+              <div class="col-md-3 col-sm-6 col-lg-3 col-xl-3 icon">
+                  <img src="ICON/Student.png" alt="">
+                <h5>2000+Student</h5>
+                <p>LearnAnythngs</p>
+              </div>
+            </article>
+        </section>
+        <!-- In this section i use card-deck elements from bootstrap -->
+        <section class="container">
+            <div class="heading">
+                <h1>
+                    Online Courses
+                </h1>
+            </div>
+            <div class="card-deck">
+                <div class="card">
+                  <img src="Photos/Morder pyschology.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Modern Psychology</h5>
+                    <p class="card-text">Designation</p>
+                    <button id="buy-course-button">Buy Courses</button>
+                  </div>
+                  <div class="card-footer">
+                    <img class="calender" src="ICON/calendar.png" alt="">
+                    <img class="people" src="ICON/people.png" alt="">
+                    <p id="footer-paragraph1">Start 20  April, 2021 </p>
+                    <p id="footer-paragraph2">60 seats</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="Photos/Morder pychons.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Modern Psychology</h5>
+                    <p class="card-text">Designation</p>
+                    <button id="buy-course-button">Buy Courses</button>
+                  </div>
+                  <div class="card-footer">
+                    <img class="calender" src="ICON/calendar.png" alt="">
+                    <img class="people" src="ICON/people.png" alt="">
+                    <p id="footer-paragraph1">Start 20  April, 2021 </p>
+                    <p id="footer-paragraph2">60 seats</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="Photos/Morder psyc.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Modern Psychology</h5>
+                    <p class="card-text">Designation</p>
+                    <button id="buy-course-button">Buy Courses</button>
+                  </div>
+                  <div class="card-footer">
+                    <img class="calender" src="ICON/calendar.png" alt="">
+                    <img class="people" src="ICON/people.png" alt="">
+                    <p id="footer-paragraph1">Start 20  April, 2021 </p>
+                    <p id="footer-paragraph2">60 seats</p>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <section class="container">
+            <div class="testimonial">
+                <h1>Testimonial</h1>
+            </div>
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-sm-6 col-md-4 col-lg-4 d-flex justify-content-end">
+                <img class="img-circle img-fluid" src="Photos/Man.png" alt="">
+                </div>
+            <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+            <p>There are many variations of passages of Lorem Ipsum available, but the<br>
+                majority have suffered alteration in some form, by injected humour, <br>
+               or randomised words which don't look even slightly believable.
+            </p>
+          </div>
+               </div>
+        </section>
+         <!-- Here is Footer Item where i use flex -->
+        <section class="container">
+        <footer>
+            <div class="row footer-elements">
+            <div class="col-sm-8 col-md-6 col-lg-6 col-xl-6">
+                <p>Millions of people of all ages and from around<br>
+                    the world are improving their lives with us</p>
+            </div>
+            <div class="col-sm-6 col-md-2 col-xl-2 col-xl-2">
+                <h5>Course</h5>
+                Graphic Design<br>
+                Web Design<br>
+                Business<br>
+                Marketing<br>
+                Engineering<br>
+            </div>
+            <div class="col-sm-6 col-md-2 col-xl-2 col-xl-2">
+                <h5>Terms</h5>
+                Graphic Design<br>
+                Web Design<br>
+                Business<br>
+                Marketing<br>
+                Engineering<br>
+            </div>
+            <div class="col-sm-6 col-md-2 col-xl-2 col-xl-2">
+               <h5> Useful Link</h5>
+                Graphic Design<br>
+                Web Design<br>
+                Business<br>
+                Marketing<br>
+                Engineering<br>
+            </div>
+            <div class="footer-text">
+                <small><p>Copyright © 2020 Azizur.com</p></small>
+            </div>
+
+            </div>
+        </footer>
+        </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>
